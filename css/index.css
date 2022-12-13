@@ -1,0 +1,162 @@
+
+:root {
+    --color-primary:#434455;
+    --second-color: #2E2F42;
+    --logo-button-color: #4D5AE5;
+    --main-background-color: #E5E5E5;
+    --secondary-background-color: #F4F4FD;
+    --contact-description-color: #434455;
+    --white-color: #ffffff;
+    --footer-color: #E7E9FC;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*+++++++HEADER+++++++*/
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-color);
+}
+
+.logo span {
+  color: var(--logo-button-color);
+}
+
+
+.menu-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--second-color);
+letter-spacing: 0.02em;
+}
+
+.contact {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--contact-description-color);
+}
+
+/*+++++++/HEADER+++++++*/
+
+
+
+/*+++++++++++BODY++++++++++*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+}
+/* +++++++++++/BODY++++++++++ */
+
+
+/*++++++++++HERO+++++++*/
+
+.hero {
+background-color: var(--second-color);
+}
+
+.hero-title {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--header-color);
+}
+
+.modal-button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-color);
+  background: var(--logo-button-color);
+  cursor: pointer;
+  border-style: none;
+}
+/*++++++++++/HERO+++++++*/
+
+
+/*++++++++ADVANTAGES++++++++*/
+.advantage-title{
+ visibility: hidden;
+}
+/*++++++++/ADVANTAGES++++++++*/
+
+
+/*++++++++++COMPONENTS++++++++++*/
+.suptitle {
+ font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--second-color);
+}
+
+.section-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--second-color);
+}
+
+.description-section {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--contact-description-color);
+}
+
+/*++++++++++/COMPONENTS++++++++++*/
+
+
+/*++++++++++TEAM++++++++++++*/
+
+.team-section {
+  color: var(--secondary-background-color);
+}
+/*++++++++++/TEAM++++++++++++*/
+
+/*++++++++FOOTER+++++++*/
+
+.footer {
+background-color: var( --second-color);
+}
+
+.footer-about {
+color: var(--footer-color);
+}
+
+.logo-footer {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-background-color);
+}
+
+.logo-footer span {
+  color: var(--logo-button-color);
+}
+
+
+/*++++++++/FOOTER+++++++*/
+
