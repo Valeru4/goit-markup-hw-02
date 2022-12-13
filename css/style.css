@@ -18,6 +18,7 @@
   text-decoration: none;
 }
 
+
 /*+++++++HEADER+++++++*/
 
 .logo {
@@ -62,98 +63,55 @@ color: var(--contact-description-color);
 
 /*+++++++/HEADER+++++++*/
 
-
-
 /*+++++++++++BODY++++++++++*/
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--white-color);
-}
+   }
 /* +++++++++++/BODY++++++++++ */
 
+/*++++++++FILTER+++++++*/
 
-/*++++++++++HERO+++++++*/
-
-.hero {
-background-color: var(--second-color);
+.filter-title {
+    visibility: hidden;
 }
 
-.hero-title {
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--white-color);
-}
 
 .modal-button {
-  font-family: 'Roboto', sans-serif;
-  color: var(--white-color);
-  background-color: var(--logo-button-color);
-  cursor: pointer;
-  border-style: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var( --logo-button-color);
+background-color: var(--secondary-background-color);
+}
+/*++++++++/FILTER+++++++*/
+
+/*+++++++++LIST oF PROJECT CARDS+++++++++*/
+
+.card-title {
+    visibility: hidden;
 }
 
-.modal-button:hover,
-.modal-button:focus {
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 4px;
-}
-
-.modal-button:active {
-background: #404BBF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-
-/*++++++++++/HERO+++++++*/
-
-
-/*++++++++ADVANTAGES++++++++*/
-.advantage-title{
- visibility: hidden;
-}
-/*++++++++/ADVANTAGES++++++++*/
-
-
-/*++++++++++COMPONENTS++++++++++*/
-.suptitle {
- font-weight: 600;
+.card-item {
+ font-style: normal;
+font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--second-color);
 }
 
-.section-title {
-font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--second-color);
-}
-
-.description-section {
-  font-weight: 400;
+.card-description {
+font-style: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--contact-description-color);
+color: var(--color-primary);
 }
 
-/*++++++++++/COMPONENTS++++++++++*/
-
-
-/*++++++++++TEAM++++++++++++*/
-
-.team-section {
-  color: var(--secondary-background-color);
-}
-/*++++++++++/TEAM++++++++++++*/
+/*+++++++++/LIST oF PROJECT CARDS+++++++++*/
 
 /*++++++++FOOTER+++++++*/
 
