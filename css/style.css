@@ -1,13 +1,12 @@
-
 :root {
-    --color-primary:#434455;
-    --second-color: #2E2F42;
-    --logo-button-color: #4D5AE5;
-    --main-background-color: #E5E5E5;
-    --secondary-background-color: #F4F4FD;
-    --contact-description-color: #434455;
-    --white-color: #ffffff;
-    --footer-color: #E7E9FC;
+  --color-primary: #434455;
+  --second-color: #2e2f42;
+  --logo-button-color: #4d5ae5;
+  --main-background-color: #e5e5e5;
+  --secondary-background-color: #f4f4fd;
+  --contact-description-color: #434455;
+  --white-color: #ffffff;
+  --footer-color: #e7e9fc;
 }
 
 .list {
@@ -18,112 +17,108 @@
   text-decoration: none;
 }
 
-
 /*+++++++HEADER+++++++*/
 
 .logo {
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--second-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-color);
 }
 
 .logo span {
   color: var(--logo-button-color);
 }
 
-.link:hover,
-.link:focus {
-  color: var(--color-primary);
-}
-
-.link:active {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--logo-button-color);
-
 }
 
 .menu-link {
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-color: var(--second-color);
-letter-spacing: 0.02em;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-color);
+  letter-spacing: 0.02em;
 }
 
 .contact {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--contact-description-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-description-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--logo-button-color);
 }
 
 /*+++++++/HEADER+++++++*/
 
 /*+++++++++++BODY++++++++++*/
 body {
-    font-family: 'Roboto', sans-serif;
-   }
+  font-family: "Roboto", sans-serif;
+}
 /* +++++++++++/BODY++++++++++ */
 
 /*++++++++FILTER+++++++*/
 
 .filter-title {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .modal-button {
-    padding: 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-button-color);
+  background-color: var(--secondary-background-color);
+  border: 1px solid var(--footer-color);
+  border-radius: 4px;
   border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
   cursor: pointer;
 }
-.modal-button {
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var( --logo-button-color);
-background-color: var(--secondary-background-color);
-border: 1px solid var( --footer-color);
-border-radius: 4px;
-}
 
-.modal-button:active {
-background: var(--logo-button-color);
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+.modal-button:hover,
+.modal-button:focus {
+  color: var(--white-color);
+  background: var(--logo-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 /*++++++++/FILTER+++++++*/
 
 /*+++++++++LIST oF PROJECT CARDS+++++++++*/
 
 .card-title {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .card-item {
- font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--second-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 .card-description {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
 }
 
 /*+++++++++/LIST oF PROJECT CARDS+++++++++*/
@@ -131,21 +126,21 @@ color: var(--color-primary);
 /*++++++++FOOTER+++++++*/
 
 .footer {
-background-color: var( --second-color);
+  background-color: var(--second-color);
 }
 
 .footer-about {
-color: var(--footer-color);
+  color: var(--footer-color);
 }
 
 .logo-footer {
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--secondary-background-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-background-color);
 }
 
 .logo-footer span {
@@ -153,4 +148,3 @@ color: var(--secondary-background-color);
 }
 
 /*++++++++/FOOTER+++++++*/
-
